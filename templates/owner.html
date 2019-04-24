@@ -1,0 +1,10 @@
+{% extends "backend.html" %}
+{% block content %}
+
+<h1>Owner's Domian</h1>
+
+<p>Logged in as: {{ owner | safe }}</p>
+
+<br>
+<p>Log out: <a href="{{ url_for('logout') }}">Log Out</a> </p>
+{% endblock %}

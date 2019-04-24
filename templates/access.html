@@ -1,0 +1,10 @@
+{% extends "backend.html" %}
+{% block content %} 
+    <h1>Login</h1>
+    <form method="POST" action="/login">
+        {{ form.hidden_tag() }}
+        {{ form.name.label }} {{ form.name(size=20) }}<br>
+        {{ form.password.label }} {{ form.password(size=20) }}<br>
+        <input type="submit" value="login">
+    </form>
+{% endblock %}
