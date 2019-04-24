@@ -1,6 +1,6 @@
 # Setting up flask-login with postgres 
 
-This is a method to create a secure portion of your website.  
+This is a method to create a log in page of your website.  
 Any pages you want to secure, you just add @login_required under the @app.route.  
   
 The ini file should look like this:  
