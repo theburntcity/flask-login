@@ -10,4 +10,4 @@ password=whatever your password is
 
 [flask]
 secret_key=
-I use (this site)[https://passwordsgenerator.net/]
+I use [this site](https://passwordsgenerator.net/)
